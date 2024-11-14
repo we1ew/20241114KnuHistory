@@ -1,0 +1,43 @@
+<%@ page pageEncoding="utf-8"%>
+<%
+
+    // 2021-08-09 전형상 수정
+    // 로그인 시 세션에 정보를 받아낸다.(LoginController)
+    // 주석처리 안된 것들은 dashboard.do 호출시 무조건 필요한 친구들
+    String strMyID                = (String) session.getAttribute("strMyID");                // ID
+//    String strMyUserNo            = (String) session.getAttribute("strMyUserNo");            // 사용자번호
+//    String strMyPassword          = (String) session.getAttribute("strMyPassword");          // 비밀번호
+    String strMyName              = (String) session.getAttribute("strMyName");              // 성명
+//    String strMySexdstnCd         = (String) session.getAttribute("strMySexdstnCd");         // 성별
+//    String strMyWorkStat          = (String) session.getAttribute("strMyWorkStat");          // 근무상태
+//    String strMyInstNm            = (String) session.getAttribute("strMyInstNm");            // 기관명
+    String strMyDeptNm            = (String) session.getAttribute("strMyDeptNm");            // 부서명
+//    String strMyJbgdNm            = (String) session.getAttribute("strMyJbgdNm");            // 직급명
+//    String strMyJbpsNm            = (String) session.getAttribute("strMyJbpsNm");            // 직위명
+//    String strMySSTDataYn         = (String) session.getAttribute("strMySSTDataYn");         // 민감데이터 허용여부( Y 허용 /// N 불가)
+//    String strMyGrpCd             = (String) session.getAttribute("strMyGrpCd");             // 사용자 그룹코드(사용자 그룹테이블의 그룹코드)
+    String strMyPerm              = (String) session.getAttribute("strMyPerm");              // 권한코드
+//    String strMyTelNo             = (String) session.getAttribute("strMyTelNo");             // 전화번호
+//    String strMyMblTelNo          = (String) session.getAttribute("strMyMblTelNo");          // 휴대폰 번호
+//    String strMyEML               = (String) session.getAttribute("strMyEML");               // 이메일
+//    String strMyPasswordErroCo    = (String) session.getAttribute("strMyPasswordErroCo");    // 비밀번호 실패 횟수(최대 5회)
+//    String strMyLastFailDt        = (String) session.getAttribute("strMyLastFailDt");        // 최종 비밀번호 실패 일시
+//    String strMyTmprEndDt         = (String) session.getAttribute("strMyTmprEndDt");         // 임시비밀번호 사용종료 일시
+//    String strMyLastLgnDt         = (String) session.getAttribute("strMyLastLgnDt");         // 마지막 로그인 일시
+//    String strMyFrstRegId         = (String) session.getAttribute("strMyFrstRegId");         // 최초 등록자 ID
+//    String strMyFrstRegDt         = (String) session.getAttribute("strMyFrstRegDt");         // 최초 등록 일시
+//    String strMyLastMdfcnId       = (String) session.getAttribute("strMyLastMdfcnId");       // 최종 수정자 ID
+//    String strMyLastMdfcnDt       = (String) session.getAttribute("strMyLastMdfcnDt");       // 최종 수정 일시
+//    String strMyLastDelId         = (String) session.getAttribute("strMyLastDelId");         // 최종 삭제자 ID
+//    String strMyLastDelDt         = (String) session.getAttribute("strMyLastDelDt");         // 최종 삭제일 (NULL = 로그인 허용)
+
+
+
+    if (strMyID == null || strMyID.equals("")) {
+%>
+    <script language="JavaScript">
+        location.href="/";
+    </script>
+<%
+    }
+%>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="sample">
+
+    <select id="testSelect" parameterType="hashmap" resultType="hashmap">
+        SELECT *
+          FROM compliance_master    A
+          LEFT JOIN compliance_main B ON (A.seq = B.master_seq)
+          LEFT JOIN compliance_sub  C ON (B.seq = C.main_seq)
+    </select>
+    
+</mapper>
