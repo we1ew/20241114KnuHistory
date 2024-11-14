@@ -27,6 +27,8 @@
 
     강의 PPT는 Pretendard 글꼴로 제작될 예정입니다. 
 
+https://docs.google.com/presentation/d/1bnqlM58-cSfzpDfbBsWfv21NT1r3fEfQ/edit?usp=sharing&ouid=114846712991826573041&rtpof=true&sd=true
+
 ## 커리큘럼 기간
 
 본 프로젝트는 2024년 11월 14일부터 2024년 11월 21일까지의 커리큘럼 기간 동안에만 지원됩니다. 이 기간 이후에는 더 이상 업데이트 및 지원되지 않을 수 있습니다.
