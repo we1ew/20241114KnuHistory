@@ -13,7 +13,7 @@
 
 11월 14일 오프라인 - OT 및 환경설정
 
-    https://majestic-bait-9a0.notion.site/OT-135771acad8780e3b357f0afa53f4cd0?pvs=74
+https://majestic-bait-9a0.notion.site/OT-135771acad8780e3b357f0afa53f4cd0?pvs=74
 
 11월 15일 온라인 - 1차시 basement
 
