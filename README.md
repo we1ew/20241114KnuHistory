@@ -21,9 +21,13 @@ https://majestic-bait-9a0.notion.site/OT-135771acad8780e3b357f0afa53f4cd0?pvs=4
     주제: 20241115-knu-history
     시간: 2024년 11월 15일  06:30 오후 서울
     참가 Zoom 회의
-    https://us05web.zoom.us/j/83642416375?pwd=KNJo6SOmjceseWMyrqUm1gfSeeizl3.1
+    
+https://us05web.zoom.us/j/83642416375?pwd=KNJo6SOmjceseWMyrqUm1gfSeeizl3.1
+
     회의 ID: 836 4241 6375
     암호: 261422
+
+https://majestic-bait-9a0.notion.site/1-basement-13f771acad8780ec9851c30b6f9eca30?pvs=4
 
 11월 19일 온라인 - 2차시 floor
 
