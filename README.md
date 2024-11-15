@@ -43,7 +43,7 @@ https://majestic-bait-9a0.notion.site/1-basement-13f771acad8780ec9851c30b6f9eca3
 https://docs.google.com/presentation/d/1bnqlM58-cSfzpDfbBsWfv21NT1r3fEfQ/edit?usp=sharing&ouid=114846712991826573041&rtpof=true&sd=true
 
 2024.11.15
-https://docs.google.com/presentation/d/1bnqlM58-cSfzpDfbBsWfv21NT1r3fEfQ/edit?usp=sharing&ouid=114846712991826573041&rtpof=true&sd=true
+https://docs.google.com/presentation/d/18TyhYHcuQ3E3kq-or-stSWRNwpUMk3GP/edit?usp=sharing&ouid=114846712991826573041&rtpof=true&sd=true
 
 ## 커리큘럼 기간
 
