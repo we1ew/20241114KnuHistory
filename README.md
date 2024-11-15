@@ -35,6 +35,10 @@ https://majestic-bait-9a0.notion.site/OT-135771acad8780e3b357f0afa53f4cd0?pvs=4
 
     강의 PPT는 Pretendard 글꼴로 제작될 예정입니다. 
 
+2024.11.14
+https://docs.google.com/presentation/d/1bnqlM58-cSfzpDfbBsWfv21NT1r3fEfQ/edit?usp=sharing&ouid=114846712991826573041&rtpof=true&sd=true
+
+2024.11.15
 https://docs.google.com/presentation/d/1bnqlM58-cSfzpDfbBsWfv21NT1r3fEfQ/edit?usp=sharing&ouid=114846712991826573041&rtpof=true&sd=true
 
 ## 커리큘럼 기간
