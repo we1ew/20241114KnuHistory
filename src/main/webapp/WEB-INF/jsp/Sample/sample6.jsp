@@ -21,7 +21,7 @@
                     for (var i = 0; i < data.list.length; i++) {
                         var row = data.list[i];
                         var li = $("<li></li>");
-                        li.html([row.str1, row.str2].join(" / "));
+                        li.html([row.user_id, row.name].join(" / "));
                         $("#list").append(li);
                     }
                 }

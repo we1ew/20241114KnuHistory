@@ -245,12 +245,12 @@ public class CommonController {
     public void downloadExcelFile(CommandMap commandMap , HttpServletResponse response , HttpServletRequest request) throws Exception{
 
         String FileName         = (String) commandMap.getMap().get("excelName");
-        String originalFileName = (String) commandMap.getMap().get("category") + "_" + FileName;
+        String originalFileName = commandMap.getMap().get("category") + "_" + FileName;
         String FileDir          = (String) commonService.getExcelDir();
 
         //FileDir = request.getSession().getServletContext().getRealPath(FileDir);
 
-        byte fileByte[] = FileUtils.readFileToByteArray(new File(FileDir + FileName));
+        byte[] fileByte = FileUtils.readFileToByteArray(new File(FileDir + FileName));
 
         response.setContentType("application/octet-stream");
         response.setContentLength(fileByte.length);

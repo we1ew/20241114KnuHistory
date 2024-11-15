@@ -100,7 +100,7 @@ public class CommunityService {
                 }
 
                 communityDAO.regBoard(map);
-                result.put("SEQ", (String)map.get("SEQ"));
+                result.put("SEQ", map.get("SEQ"));
 
                 if (isFile.equals("Y")) {
                     isFile = "N";
@@ -111,7 +111,7 @@ public class CommunityService {
 
                         communityDAO.insertFile(list.get(i));
 
-                        if (("I").equals((String) list.get(i).get("FileType"))) {
+                        if (("I").equals(list.get(i).get("FileType"))) {
                             isImage = "Y";
                         } else {
                             isFile = "Y";
@@ -216,7 +216,7 @@ public class CommunityService {
             String title = (String) map.get("title");        // 제목
             String tx_content = (String) map.get("tx_content");   // 내용
             String SEQ = (String) map.get("SEQ");          // 수정할 게시물번호
-            String REG_ID = (String) getRegID(map);           // 글 작성자
+            String REG_ID = getRegID(map);           // 글 작성자
             String editDate = Common.getDate();
             String editTime = Common.getTime();
             String attach = (String) map.get("attach");
@@ -263,7 +263,7 @@ public class CommunityService {
 
                 ////////////////////
                 // 첨부파일 저장
-                if (("Y").equals(isFile) || ("Y").equals((String) boardDetail.get("IS_FILE")) || ("Y").equals((String) boardDetail.get("IS_IMAGE"))) {
+                if (("Y").equals(isFile) || ("Y").equals(boardDetail.get("IS_FILE")) || ("Y").equals(boardDetail.get("IS_IMAGE"))) {
                     isFile = "N";
                     isImage = "N";
                     communityDAO.deleteFile(map);                   //    2. 파일테이블 삭제 (MIDX = idx}
@@ -275,7 +275,7 @@ public class CommunityService {
                         communityDAO.insertFile(list.get(i));
 
                         // 첨부파일의 FileType 체크
-                        if (("I").equals((String) list.get(i).get("FileType"))) {
+                        if (("I").equals(list.get(i).get("FileType"))) {
                             isImage = "Y";
                         } else {
                             isFile = "Y";
@@ -314,7 +314,7 @@ public class CommunityService {
             boolean isSave = true;
             boolean isDelete = (Boolean) map.get("isDelete");
 
-            String REG_ID = (String) getRegID(map);      // 글 작성자
+            String REG_ID = getRegID(map);      // 글 작성자
             String SEQ = (String) map.get("SEQ");     // 게시물 번호
 
 
@@ -385,7 +385,7 @@ public class CommunityService {
 
                     ////////////////////
                     // 댓글 그룹 업데이트
-                    if (!Common.isEmpty(map.get("groupNum")) && ("Y").equals((String) map.get("isReply"))) {
+                    if (!Common.isEmpty(map.get("groupNum")) && ("Y").equals(map.get("isReply"))) {
                         communityDAO.updateCommentGroup(map);
                     } else {
                         map.put("groupNum", map.get("SEQ"));
@@ -432,7 +432,7 @@ public class CommunityService {
             boolean isSave = true;
             boolean isModify = (Boolean) map.get("isModify");
 
-            String REG_ID = (String) getCommentRegID(map);      // 글 작성자
+            String REG_ID = getCommentRegID(map);      // 글 작성자
             String tx_content = (String) map.get("text");        // 내용
             String QSTATE = (String) map.get("QSTATE");        // 진행상태
 
@@ -495,7 +495,7 @@ public class CommunityService {
             boolean isSave = true;
             boolean isDelete = (Boolean) map.get("isDelete");
 
-            String REG_ID = (String) getCommentRegID(map);      // 글 작성자
+            String REG_ID = getCommentRegID(map);      // 글 작성자
             String SEQ = (String) map.get("SEQ");     // 댓글 번호
 
             ////////////////////

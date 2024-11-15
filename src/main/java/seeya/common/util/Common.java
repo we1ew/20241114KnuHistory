@@ -47,12 +47,12 @@ public class Common {
     public static void setPerm(Map<String, Object> map) throws Exception {
         // Auto-generated method stub
         permInit(); // 권한초기화
-        isRead    = isEmpty(map.get("READ_YN"))    ? false : map.get("READ_YN").equals("Y");
-        isWrite   = isEmpty(map.get("REG_YN"))     ? false : map.get("REG_YN").equals("Y");
-        isModify  = isEmpty(map.get("MDFCN_YN"))   ? false : map.get("MDFCN_YN").equals("Y");
-        isDelete  = isEmpty(map.get("DEL_YN"))     ? false : map.get("DEL_YN").equals("Y");
-        isComment = isEmpty(map.get("COMMENT_YN")) ? false : map.get("COMMENT_YN").equals("Y");
-        isManager = isEmpty(map.get("MANAGE_YN")) ? false : map.get("MANAGE_YN").equals("Y");
+        isRead    = !isEmpty(map.get("READ_YN")) && map.get("READ_YN").equals("Y");
+        isWrite   = !isEmpty(map.get("REG_YN")) && map.get("REG_YN").equals("Y");
+        isModify  = !isEmpty(map.get("MDFCN_YN")) && map.get("MDFCN_YN").equals("Y");
+        isDelete  = !isEmpty(map.get("DEL_YN")) && map.get("DEL_YN").equals("Y");
+        isComment = !isEmpty(map.get("COMMENT_YN")) && map.get("COMMENT_YN").equals("Y");
+        isManager = !isEmpty(map.get("MANAGE_YN")) && map.get("MANAGE_YN").equals("Y");
     }
 
     /**
@@ -419,7 +419,7 @@ public class Common {
             str = str.replaceAll(">", "&gt;");
             str = str.replaceAll("%00", null);
             str = str.replaceAll("\"", "&#34;");
-            str = str.replaceAll("\'", "&#39;");
+            str = str.replaceAll("'", "&#39;");
             str = str.replaceAll("%", "&#37;");    
             str = str.replaceAll("../", "");
             str = str.replaceAll("..\\\\", "");

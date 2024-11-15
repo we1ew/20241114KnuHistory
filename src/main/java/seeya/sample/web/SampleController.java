@@ -1,6 +1,6 @@
 package seeya.sample.web;
 
-import seeya.sample.service.SampleService;
+import seeya.sample.service.*;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -85,7 +85,7 @@ public class SampleController {
         
         Object foo = session.getAttribute("foo");
         if (foo != null) {
-            mv.addObject("foo", (String)foo);
+            mv.addObject("foo", foo);
         }
         return mv;
     }

@@ -313,10 +313,10 @@ public class CommonService {
         
         String result = "SUCCESS";
         
-        String menuURL   = (String) request.getRequestURI();             // 경로
+        String menuURL   = request.getRequestURI();             // 경로
         String permCode  = (String) session.getAttribute("strMyPerm");   // 현재 권한
-        String boardCode = (String) request.getParameter("boardCode");   // T_MENU에 저장된 기본 주소를 체크하기 위한 값.
-        String Code      = (String) request.getParameter("Code");   // T_MENU에 저장된 기본 주소를 체크하기 위한 값.
+        String boardCode = request.getParameter("boardCode");   // T_MENU에 저장된 기본 주소를 체크하기 위한 값.
+        String Code      = request.getParameter("Code");   // T_MENU에 저장된 기본 주소를 체크하기 위한 값.
 
         if (!Common.isEmpty(boardCode)) {
             menuURL = menuURL + "?boardCode="+ boardCode;
@@ -326,7 +326,7 @@ public class CommonService {
         }
 
         // URI로 메뉴코드 가져오기
-        String menuCode = (String) getMenuCode(menuURL);
+        String menuCode = getMenuCode(menuURL);
         
         if (Common.isEmpty(menuCode)) {
             result = "E100";
@@ -443,7 +443,7 @@ public class CommonService {
         // 파일 존재 여부 체크
         if (checkFile(FileDir, FileName)) {
 
-            byte fileByte[] = org.apache.commons.io.FileUtils.readFileToByteArray(new File(FileDir + FileName));
+            byte[] fileByte = org.apache.commons.io.FileUtils.readFileToByteArray(new File(FileDir + FileName));
 
             response.setContentType("application/octet-stream");
             response.setContentLength(fileByte.length);

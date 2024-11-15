@@ -57,7 +57,7 @@ public class CommunityController {
         ModelAndView mv = null;
 
         String error = (String) commonService.checkPagePerm(request); // 로그인 여부, 권한 체크
-        String boardCode = (String) request.getParameter("boardCode");   // T_MENU에 저장된 기본 주소를 체크하기 위한 값.
+        String boardCode = request.getParameter("boardCode");   // T_MENU에 저장된 기본 주소를 체크하기 위한 값.
 
 
         if (Common.isEmpty(boardCode)) {
@@ -77,7 +77,7 @@ public class CommunityController {
         commandMap.getMap().get("boardCode");
 
         // 페이지 모드 : 기본은 리스트 페이지
-        String boardMode = (String) request.getParameter("boardMode");
+        String boardMode = request.getParameter("boardMode");
         boolean isContinue = true;      // 페이지 모드에 권한이 없으면 false로 변경. false이면 오류 페이지로 이동
         boolean isError    = false;     // isContinue ==true 진행 중 오류가 발생하면.
 
@@ -108,7 +108,7 @@ public class CommunityController {
         if (boardMode.equals("E")) {
             isContinue = Common.isModify;
 
-            String SEQ    = (String) request.getParameter("SEQ"); // 수정할 게시물번호
+            String SEQ    = request.getParameter("SEQ"); // 수정할 게시물번호
 
             if (Common.isEmpty(SEQ)) {
                 isContinue = false;                     // 게시물번호가 없으면 오류

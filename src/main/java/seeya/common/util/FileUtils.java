@@ -563,7 +563,7 @@ public class FileUtils {
     private boolean checkImage(File files) throws Exception{
         try {
             String checkType = "";
-            checkType = (String)new MimetypesFileTypeMap().getContentType(files).toLowerCase();
+            checkType = new MimetypesFileTypeMap().getContentType(files).toLowerCase();
             //  jpg                                      jpg                               png                               png : windows에서 화면캡쳐 했을 때의 파일 속성
             //if (("image/jpeg").equals(checkType) || ("image/pjpeg").equals(checkType) || ("image/png").equals(checkType) || ("application/octet-stream").equals(checkType)) {
                                                             // 상단에있는 png : windows에서 화면캡쳐 했을 때의 파일 속성 은 한글문서나 다른문서가들어와도 똑같은 속성이라 제거.
