@@ -44,6 +44,8 @@ https://docs.google.com/presentation/d/1bnqlM58-cSfzpDfbBsWfv21NT1r3fEfQ/edit?us
 
 2024.11.15
 https://docs.google.com/presentation/d/18TyhYHcuQ3E3kq-or-stSWRNwpUMk3GP/edit?usp=sharing&ouid=114846712991826573041&rtpof=true&sd=true
+강의 영상 녹화본
+https://drive.google.com/file/d/1cUUAhdFz-JUiKoNER8KaMbFbV7QP_TGj/view?usp=sharing
 
 ## 오픈채팅방 URL
 
