@@ -17,6 +17,14 @@ https://majestic-bait-9a0.notion.site/OT-135771acad8780e3b357f0afa53f4cd0?pvs=4
 
 11월 15일 온라인 - 1차시 basement
 
+    박덕수이(가) 예약된 Zoom 회의에 귀하를 초대합니다.
+    주제: 20241115-knu-history
+    시간: 2024년 11월 15일  06:30 오후 서울
+    참가 Zoom 회의
+    https://us05web.zoom.us/j/83642416375?pwd=KNJo6SOmjceseWMyrqUm1gfSeeizl3.1
+    회의 ID: 836 4241 6375
+    암호: 261422
+
 11월 19일 온라인 - 2차시 floor
 
 11월 20일 오프라인 - 멘토링 및 팀과제 ceil
@@ -27,6 +35,10 @@ https://majestic-bait-9a0.notion.site/OT-135771acad8780e3b357f0afa53f4cd0?pvs=4
 
     강의 PPT는 Pretendard 글꼴로 제작될 예정입니다. 
 
+2024.11.14
+https://docs.google.com/presentation/d/1bnqlM58-cSfzpDfbBsWfv21NT1r3fEfQ/edit?usp=sharing&ouid=114846712991826573041&rtpof=true&sd=true
+
+2024.11.15
 https://docs.google.com/presentation/d/1bnqlM58-cSfzpDfbBsWfv21NT1r3fEfQ/edit?usp=sharing&ouid=114846712991826573041&rtpof=true&sd=true
 
 ## 커리큘럼 기간
