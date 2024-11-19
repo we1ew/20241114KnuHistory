@@ -46,6 +46,10 @@ https://docs.google.com/presentation/d/18TyhYHcuQ3E3kq-or-stSWRNwpUMk3GP/edit?us
 강의 영상 녹화본
 https://drive.google.com/file/d/1cUUAhdFz-JUiKoNER8KaMbFbV7QP_TGj/view?usp=sharing
 
+2024.11.19
+강의 영상 녹화본
+https://drive.google.com/file/d/1kj-M4sDztudu7SNRz6a06jBMdoHskk-T/view?usp=sharing
+
 ## 오픈채팅방 URL
 
 https://open.kakao.com/o/g5Zb8b0g
