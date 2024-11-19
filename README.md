@@ -27,6 +27,8 @@ https://us06web.zoom.us/j/89830744254?pwd=aYQasaO3J381D72U2aAmwLvyEwM3TJ.1
 회의 ID: 898 3074 4254
 암호: 884611
 
+https://majestic-bait-9a0.notion.site/2-floor-142771acad8780c8981dc61b8a6ff578?pvs=73
+
 11월 20일 오프라인 - 멘토링 및 팀과제 ceil
 
 11월 21일 오프라인 - 마무리
