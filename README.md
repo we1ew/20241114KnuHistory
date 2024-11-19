@@ -21,6 +21,12 @@ https://majestic-bait-9a0.notion.site/1-basement-13f771acad8780ec9851c30b6f9eca3
 
 11월 19일 온라인 - 2차시 floor
 
+참가 Zoom 회의
+https://us06web.zoom.us/j/89830744254?pwd=aYQasaO3J381D72U2aAmwLvyEwM3TJ.1
+
+회의 ID: 898 3074 4254
+암호: 884611
+
 11월 20일 오프라인 - 멘토링 및 팀과제 ceil
 
 11월 21일 오프라인 - 마무리
