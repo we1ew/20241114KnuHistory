@@ -70,21 +70,22 @@ h2 {
     color: #333;
 }
 
-form {
+div {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-form input[type="text"],
-form select {
+div input[type="text"],
+div input[type="password"],
+div select {
     flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-form button {
+div button {
     padding: 10px 20px;
     border: none;
     background-color: #333;
@@ -93,7 +94,7 @@ form button {
     cursor: pointer;
 }
 
-form button:hover {
+div button:hover {
     background-color: #555;
 }
 
@@ -137,13 +138,245 @@ footer {
         margin: 10px 0;
     }
 
-    form {
+    div {
         flex-direction: column;
     }
 
-    form input[type="text"],
-    form select,
-    form button {
+    div input[type="text"],
+    div select,
+    div button {
         width: 100%;
     }
 }
+
+/* 영화 목록 스타일 */
+.movie-list-section {
+    margin-top: 20px;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.movie-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.movie-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.movie-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.movie-card button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.movie-card button:hover {
+    background-color: #555;
+}
+
+/* 로그인 페이지 스타일 */
+.login-section {
+    margin-top: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.register-link a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* 회원가입 페이지 스타일 */
+.register-section {
+    margin-top: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.register-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.login-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.login-link a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+/* 장르 필터 스타일 */
+.filter-section {
+    width: 100%;
+    margin-top: 20px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+.filter-section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.filter-section form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filter-section label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+}
+
+.filter-section input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.filter-apply {
+    width: 100%;
+    justify-content: end;
+}
+
+/* 영화 목록 레이아웃은 이전 스타일 유지 */
