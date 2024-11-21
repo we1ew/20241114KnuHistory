@@ -54,6 +54,14 @@ https://drive.google.com/file/d/1kj-M4sDztudu7SNRz6a06jBMdoHskk-T/view?usp=shari
 
 https://open.kakao.com/o/g5Zb8b0g
 
+## Q&A
+
+Q1) Intellij와 tomcat 조합으로 실행시 이런 오류가 나서 실행이 안되요! (Error running 'Unnamed': java.io.FileNotFoundException: C:\Users\seeyainsight\.SmartTomcat\20241114KnuHistory\20241114KnuHistory\conf\server.xml (지정된 파일을 찾을 수 없습니다)
+
+A1) conf 파일을 읽어오는 과정 가운데 1순위 2순위 등으로 검색이 진행되는데 해당 부분에서 문제가 발생한 것으로 추정되나 재현이 되지 않아 임시 해결책으로 안내해드리겠습니다.
+    conf 폴더와 내부 파일들을 윈도우 기준으로 읽기 전용 속성을 부여해주시면 삭제되는 문제가 해결될 것으로 사려됩니다.
+    mac 기준으로는 https://support.apple.com/ko-kr/guide/mac-help/mchlp1203/mac 이 안내를 따라주시면 될 것으로 사려됩니다.
+
 ## 커리큘럼 기간
 
 본 프로젝트는 2024년 11월 14일부터 2024년 11월 21일까지의 커리큘럼 기간 동안에만 지원됩니다. 이 기간 이후에는 더 이상 업데이트 및 지원되지 않을 수 있습니다.
