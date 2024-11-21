@@ -33,6 +33,8 @@ https://majestic-bait-9a0.notion.site/2-floor-142771acad8780c8981dc61b8a6ff578?p
 
 11월 21일 오프라인 - 마무리
 
+https://majestic-bait-9a0.notion.site/145771acad8780c1a49edb127b952627
+
 http://localhost:8080/Movie/main.do
 
 ## 강의 PPT
