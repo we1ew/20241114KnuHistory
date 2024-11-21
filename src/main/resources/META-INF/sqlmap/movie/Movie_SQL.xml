@@ -3,12 +3,18 @@
 
 <mapper namespace="movie">
 
-    <select id="login" parameterType="hashmap" resultType="integer">
-        select count(*)
+    <select id="login" parameterType="hashmap" resultType="hashmap">
+        select *
           from user_info a
          where user_id = #{id}
            and user_pw = SHA2(#{pw}, 512);
     </select>
+
+    <insert id="signIn" parameterType="hashmap">
+        insert into user_info
+                    (user_id, user_pw, created_datetime, updated_datetime, deleted_datetime, fail_count, name)
+             values (#{id}, SHA2(#{pw}, 512), now(), NULL, NULL, 0, #{name});
+    </insert>
 
     <select id="genreList" parameterType="hashmap" resultType="hashmap">
         select *
@@ -29,6 +35,22 @@
             </foreach>
         </if>
          group by a.movie_id;
+    </select>
+
+    <insert id="addRating" parameterType="hashmap">
+        insert into movie_rathing
+                    (movie_id, user_id, rating)
+             values (${movie_id}, #{user_id}, ${rating})
+       on duplicate key update
+                rating = ${rating}
+    </insert>
+
+    <select id="getRating" parameterType="hashmap" resultType="hashmap">
+        select a.*
+             , IFNULL(ROUND(AVG(b.rating), 1), '-') as rating
+          from movie a
+          left join movie_rathing b on (a.movie_id = b.movie_id)
+         group by a.movie_id
     </select>
 
 </mapper>
