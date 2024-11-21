@@ -33,6 +33,8 @@ https://majestic-bait-9a0.notion.site/2-floor-142771acad8780c8981dc61b8a6ff578?p
 
 11월 21일 오프라인 - 마무리
 
+http://localhost:8080/Movie/main.do
+
 ## 강의 PPT
 
     강의 PPT는 Pretendard 글꼴로 제작될 예정입니다. 
