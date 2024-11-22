@@ -64,9 +64,9 @@ Q1) Intellij와 tomcat 조합으로 실행시 이런 오류가 나서 실행이 
 
 A1) 우선 안내 드린 tomcat을 아래 링크의 파일로 교체해보시고 그래도 안되면 이하의 설명대로 진행하시면 될것 같습니다.
 https://drive.google.com/file/d/1z48y7FxcrlEOz8WTayWBJchPUKLi-vmw/view?usp=sharing
-    conf 파일을 읽어오는 과정 가운데 1순위 2순위 등으로 검색이 진행되는데 해당 부분에서 문제가 발생한 것으로 추정되나 재현이 되지 않아 임시 해결책으로 안내해드리겠습니다.
-    conf 폴더와 내부 파일들을 윈도우 기준으로 읽기 전용 속성을 부여해주시면 삭제되는 문제가 해결될 것으로 사려됩니다.
-    mac 기준으로는 https://support.apple.com/ko-kr/guide/mac-help/mchlp1203/mac 이 안내를 따라주시면 될 것으로 사려됩니다.
+외장 톰캣으로 실행이 불가능할 경우 spring 프로젝트 내부에 톰캣을 내장시켜서 기동할 수 있습니다.
+해당 방법은 아래 notion 페이지로 정리되어 있습니다.
+https://majestic-bait-9a0.notion.site/Q-A-146771acad87803d9097f05bd79b3a40?pvs=4
 
 ## 커리큘럼 기간
 
